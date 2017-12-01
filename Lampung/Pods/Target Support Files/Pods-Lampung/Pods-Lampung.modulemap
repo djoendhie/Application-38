@@ -1,0 +1,6 @@
+framework module Pods_Lampung {
+  umbrella header "Pods-Lampung-umbrella.h"
+
+  export *
+  module * { export * }
+}

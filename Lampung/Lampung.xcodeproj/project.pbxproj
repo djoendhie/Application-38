@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85F0E57EDDCB78FBD1619E1C /* Pods_Lampung.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891FC5B86E133C76F0A6C5FE /* Pods_Lampung.framework */; };
+		D6CB3D281FC952E4004F8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D271FC952E4004F8248 /* AppDelegate.swift */; };
+		D6CB3D2A1FC952E4004F8248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D291FC952E4004F8248 /* ViewController.swift */; };
+		D6CB3D2D1FC952E4004F8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D2B1FC952E4004F8248 /* Main.storyboard */; };
+		D6CB3D2F1FC952E4004F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D2E1FC952E4004F8248 /* Assets.xcassets */; };
+		D6CB3D321FC952E4004F8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D301FC952E4004F8248 /* LaunchScreen.storyboard */; };
+		D6CB3D3D1FC952E5004F8248 /* LampungTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D3C1FC952E5004F8248 /* LampungTests.swift */; };
+		D6CB3D481FC952E5004F8248 /* LampungUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D471FC952E5004F8248 /* LampungUITests.swift */; };
+		D6FFCE4A1FCBD01000F7E6B4 /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFCE491FCBD01000F7E6B4 /* ResepTableViewCell.swift */; };
+		D6FFCE4C1FCBD01B00F7E6B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFCE4B1FCBD01B00F7E6B4 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB3D391FC952E5004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3D1C1FC952E4004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3D231FC952E4004F8248;
+			remoteInfo = Lampung;
+		};
+		D6CB3D441FC952E5004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3D1C1FC952E4004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3D231FC952E4004F8248;
+			remoteInfo = Lampung;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891FC5B86E133C76F0A6C5FE /* Pods_Lampung.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lampung.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4661BFBD012ADF01C7B15B /* Pods-Lampung.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lampung.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lampung/Pods-Lampung.debug.xcconfig"; sourceTree = "<group>"; };
+		C46B8A98DE74084BABE1154C /* Pods-Lampung.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lampung.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lampung/Pods-Lampung.release.xcconfig"; sourceTree = "<group>"; };
+		D6CB3D241FC952E4004F8248 /* Lampung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lampung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D271FC952E4004F8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CB3D291FC952E4004F8248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CB3D2C1FC952E4004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB3D2E1FC952E4004F8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB3D311FC952E4004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB3D331FC952E4004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3D381FC952E5004F8248 /* LampungTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LampungTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D3C1FC952E5004F8248 /* LampungTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampungTests.swift; sourceTree = "<group>"; };
+		D6CB3D3E1FC952E5004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3D431FC952E5004F8248 /* LampungUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LampungUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D471FC952E5004F8248 /* LampungUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampungUITests.swift; sourceTree = "<group>"; };
+		D6CB3D491FC952E5004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FFCE491FCBD01000F7E6B4 /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		D6FFCE4B1FCBD01B00F7E6B4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB3D211FC952E4004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F0E57EDDCB78FBD1619E1C /* Pods_Lampung.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D351FC952E5004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D401FC952E5004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AAC1C37A512B4D26F9CA2EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4661BFBD012ADF01C7B15B /* Pods-Lampung.debug.xcconfig */,
+				C46B8A98DE74084BABE1154C /* Pods-Lampung.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CB3D1B1FC952E4004F8248 = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D261FC952E4004F8248 /* Lampung */,
+				D6CB3D3B1FC952E5004F8248 /* LampungTests */,
+				D6CB3D461FC952E5004F8248 /* LampungUITests */,
+				D6CB3D251FC952E4004F8248 /* Products */,
+				4AAC1C37A512B4D26F9CA2EC /* Pods */,
+				F9C166870F2D58C1D9FD6CFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB3D251FC952E4004F8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D241FC952E4004F8248 /* Lampung.app */,
+				D6CB3D381FC952E5004F8248 /* LampungTests.xctest */,
+				D6CB3D431FC952E5004F8248 /* LampungUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB3D261FC952E4004F8248 /* Lampung */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D271FC952E4004F8248 /* AppDelegate.swift */,
+				D6CB3D2B1FC952E4004F8248 /* Main.storyboard */,
+				D6CB3D2E1FC952E4004F8248 /* Assets.xcassets */,
+				D6CB3D301FC952E4004F8248 /* LaunchScreen.storyboard */,
+				D6CB3D331FC952E4004F8248 /* Info.plist */,
+				D6FFCE491FCBD01000F7E6B4 /* ResepTableViewCell.swift */,
+				D6CB3D291FC952E4004F8248 /* ViewController.swift */,
+				D6FFCE4B1FCBD01B00F7E6B4 /* TableViewController.swift */,
+			);
+			path = Lampung;
+			sourceTree = "<group>";
+		};
+		D6CB3D3B1FC952E5004F8248 /* LampungTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D3C1FC952E5004F8248 /* LampungTests.swift */,
+				D6CB3D3E1FC952E5004F8248 /* Info.plist */,
+			);
+			path = LampungTests;
+			sourceTree = "<group>";
+		};
+		D6CB3D461FC952E5004F8248 /* LampungUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D471FC952E5004F8248 /* LampungUITests.swift */,
+				D6CB3D491FC952E5004F8248 /* Info.plist */,
+			);
+			path = LampungUITests;
+			sourceTree = "<group>";
+		};
+		F9C166870F2D58C1D9FD6CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				891FC5B86E133C76F0A6C5FE /* Pods_Lampung.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB3D231FC952E4004F8248 /* Lampung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D4C1FC952E5004F8248 /* Build configuration list for PBXNativeTarget "Lampung" */;
+			buildPhases = (
+				40164D6EFDF11CD7E8707D64 /* [CP] Check Pods Manifest.lock */,
+				D6CB3D201FC952E4004F8248 /* Sources */,
+				D6CB3D211FC952E4004F8248 /* Frameworks */,
+				D6CB3D221FC952E4004F8248 /* Resources */,
+				8127B202BE7C4FDE6921B035 /* [CP] Embed Pods Frameworks */,
+				5413B54AEA910D8B5516967D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lampung;
+			productName = Lampung;
+			productReference = D6CB3D241FC952E4004F8248 /* Lampung.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB3D371FC952E5004F8248 /* LampungTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D4F1FC952E5004F8248 /* Build configuration list for PBXNativeTarget "LampungTests" */;
+			buildPhases = (
+				D6CB3D341FC952E5004F8248 /* Sources */,
+				D6CB3D351FC952E5004F8248 /* Frameworks */,
+				D6CB3D361FC952E5004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3D3A1FC952E5004F8248 /* PBXTargetDependency */,
+			);
+			name = LampungTests;
+			productName = LampungTests;
+			productReference = D6CB3D381FC952E5004F8248 /* LampungTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB3D421FC952E5004F8248 /* LampungUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D521FC952E5004F8248 /* Build configuration list for PBXNativeTarget "LampungUITests" */;
+			buildPhases = (
+				D6CB3D3F1FC952E5004F8248 /* Sources */,
+				D6CB3D401FC952E5004F8248 /* Frameworks */,
+				D6CB3D411FC952E5004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3D451FC952E5004F8248 /* PBXTargetDependency */,
+			);
+			name = LampungUITests;
+			productName = LampungUITests;
+			productReference = D6CB3D431FC952E5004F8248 /* LampungUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB3D1C1FC952E4004F8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6CB3D231FC952E4004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CB3D371FC952E5004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3D231FC952E4004F8248;
+					};
+					D6CB3D421FC952E5004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3D231FC952E4004F8248;
+					};
+				};
+			};
+			buildConfigurationList = D6CB3D1F1FC952E4004F8248 /* Build configuration list for PBXProject "Lampung" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB3D1B1FC952E4004F8248;
+			productRefGroup = D6CB3D251FC952E4004F8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB3D231FC952E4004F8248 /* Lampung */,
+				D6CB3D371FC952E5004F8248 /* LampungTests */,
+				D6CB3D421FC952E5004F8248 /* LampungUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB3D221FC952E4004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D321FC952E4004F8248 /* LaunchScreen.storyboard in Resources */,
+				D6CB3D2F1FC952E4004F8248 /* Assets.xcassets in Resources */,
+				D6CB3D2D1FC952E4004F8248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D361FC952E5004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D411FC952E5004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40164D6EFDF11CD7E8707D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lampung-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5413B54AEA910D8B5516967D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lampung/Pods-Lampung-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8127B202BE7C4FDE6921B035 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lampung/Pods-Lampung-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lampung/Pods-Lampung-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB3D201FC952E4004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D2A1FC952E4004F8248 /* ViewController.swift in Sources */,
+				D6CB3D281FC952E4004F8248 /* AppDelegate.swift in Sources */,
+				D6FFCE4A1FCBD01000F7E6B4 /* ResepTableViewCell.swift in Sources */,
+				D6FFCE4C1FCBD01B00F7E6B4 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D341FC952E5004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D3D1FC952E5004F8248 /* LampungTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D3F1FC952E5004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D481FC952E5004F8248 /* LampungUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB3D3A1FC952E5004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3D231FC952E4004F8248 /* Lampung */;
+			targetProxy = D6CB3D391FC952E5004F8248 /* PBXContainerItemProxy */;
+		};
+		D6CB3D451FC952E5004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3D231FC952E4004F8248 /* Lampung */;
+			targetProxy = D6CB3D441FC952E5004F8248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB3D2B1FC952E4004F8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3D2C1FC952E4004F8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB3D301FC952E4004F8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3D311FC952E4004F8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB3D4A1FC952E5004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CB3D4B1FC952E5004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB3D4D1FC952E5004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4661BFBD012ADF01C7B15B /* Pods-Lampung.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lampung/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Lampung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB3D4E1FC952E5004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46B8A98DE74084BABE1154C /* Pods-Lampung.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lampung/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Lampung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CB3D501FC952E5004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LampungTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.LampungTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lampung.app/Lampung";
+			};
+			name = Debug;
+		};
+		D6CB3D511FC952E5004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LampungTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.LampungTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lampung.app/Lampung";
+			};
+			name = Release;
+		};
+		D6CB3D531FC952E5004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LampungUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.LampungUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lampung;
+			};
+			name = Debug;
+		};
+		D6CB3D541FC952E5004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LampungUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.LampungUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lampung;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB3D1F1FC952E4004F8248 /* Build configuration list for PBXProject "Lampung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D4A1FC952E5004F8248 /* Debug */,
+				D6CB3D4B1FC952E5004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D4C1FC952E5004F8248 /* Build configuration list for PBXNativeTarget "Lampung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D4D1FC952E5004F8248 /* Debug */,
+				D6CB3D4E1FC952E5004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D4F1FC952E5004F8248 /* Build configuration list for PBXNativeTarget "LampungTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D501FC952E5004F8248 /* Debug */,
+				D6CB3D511FC952E5004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D521FC952E5004F8248 /* Build configuration list for PBXNativeTarget "LampungUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D531FC952E5004F8248 /* Debug */,
+				D6CB3D541FC952E5004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB3D1C1FC952E4004F8248 /* Project object */;
+}

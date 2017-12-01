@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baskerville.ttc">
+            <string>Baskerville-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="sBX-VE-Rrn">
+                                <rect key="frame" x="0.0" y="96" width="375" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="3zT-6s-wdj"/>
+                                    <constraint firstAttribute="height" constant="220" id="oe4-ui-QgG"/>
+                                    <constraint firstAttribute="width" constant="375" id="oyX-pZ-my2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="ATY-Pm-SPY">
+                                <rect key="frame" x="127" y="474" width="121" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="Sbc-qM-U47"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Khas Lampung" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSp-f2-nGB">
+                                <rect key="frame" x="26" y="317" width="324" height="25"/>
+                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9916905761" green="0.77991443869999999" blue="0.4689428806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="3Ax-Rv-CDW"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="7hB-lF-wSM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ATY-Pm-SPY" secondAttribute="bottom" constant="97" id="7tz-Cp-pac"/>
+                            <constraint firstItem="ATY-Pm-SPY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="9r8-Ea-plh"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="GPB-kr-eqs"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="HWV-5O-qN6"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="HZf-1H-tXn"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="IrT-Uv-3Hy"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="PyG-ea-ch7"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="Wpz-bf-lzh"/>
+                            <constraint firstItem="bSp-f2-nGB" firstAttribute="top" secondItem="sBX-VE-Rrn" secondAttribute="bottom" constant="1" id="eoz-cD-3L3"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="gJS-iq-EJi"/>
+                            <constraint firstItem="ATY-Pm-SPY" firstAttribute="centerX" secondItem="bSp-f2-nGB" secondAttribute="centerX" id="iHO-O2-mvp"/>
+                            <constraint firstItem="ATY-Pm-SPY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="j70-gE-HzE"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="rJB-PA-Lrh"/>
+                            <constraint firstItem="sBX-VE-Rrn" firstAttribute="width" secondItem="sBX-VE-Rrn" secondAttribute="height" multiplier="75:44" id="sie-5m-4ZO"/>
+                            <constraint firstItem="bSp-f2-nGB" firstAttribute="centerX" secondItem="sBX-VE-Rrn" secondAttribute="centerX" id="vh1-HB-7c3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="225" height="225"/>
+        <image name="images" width="341" height="148"/>
+    </resources>
+</document>
